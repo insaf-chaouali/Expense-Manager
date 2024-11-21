@@ -1,0 +1,211 @@
+.root {
+    -fx-background-color: #f2f2f2; /* Couleur de fond de la fenêtre */
+}
+
+.container {
+    -fx-padding: 20px;
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px; /* Espace à l'intérieur du bouton */
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Changement de couleur au survol */
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 250px;
+    -fx-padding: 5px;
+    -fx-background-radius: 5px;
+}
+
+.password-field {
+    -fx-font-size: 14px;
+    -fx-pref-height: 40px;
+    -fx-pref-width: 250px;
+    -fx-padding: 5px;
+    -fx-background-radius: 5px;
+}
+
+.checkbox {
+    -fx-font-size: 14px;
+}
+
+#login_registerAccount {
+    -fx-text-fill: #007bff; /* Couleur du texte spécifique pour cet élément */
+}
+
+#login_showpassword {
+    -fx-font-size: 12px;
+}
+
+#login_showpassword .box {
+    -fx-background-color: #007bff; /* Couleur de fond de la case à cocher */
+}
+
+#login_showpassword .box:selected {
+    -fx-background-color: #007bff; /* Couleur de fond de la case cochée */
+}
+.anchor-pane.sign-in {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+.anchor-pane.sign-in .image-view.logo {
+    -fx-fit-height: 145.0;
+    -fx-fit-width: 152.0;
+    -fx-layout-x: 99.0;
+}
+
+.anchor-pane.sign-in .label.title {
+    -fx-layout-x: 117.0;
+    -fx-layout-y: 134.0;
+    -fx-pref-height: 20.0;
+    -fx-pref-width: 125.0;
+    -fx-font-family: 'Gigi';
+    -fx-font-size: 14.0;
+}
+
+.anchor-pane.sign-in .image-view.user-icon {
+    -fx-fit-height: 93.0;
+    -fx-fit-width: 77.0;
+    -fx-layout-x: 8.0;
+    -fx-layout-y: 160.0;
+}
+
+.anchor-pane.sign-in .text-field.username {
+    -fx-layout-x: 75.0;
+    -fx-layout-y: 191.0;
+    -fx-pref-height: 35.0;
+    -fx-pref-width: 233.0;
+}
+
+.anchor-pane.sign-in .image-view.password-icon {
+    -fx-fit-height: 61.0;
+    -fx-fit-width: 68.0;
+    -fx-layout-x: 16.0;
+    -fx-layout-y: 258.0;
+}
+
+.anchor-pane.sign-in .password-field.password {
+    -fx-layout-x: 73.0;
+    -fx-layout-y: 276.0;
+    -fx-pref-height: 35.0;
+    -fx-pref-width: 233.0;
+}
+
+.anchor-pane.sign-in .text-field.password-confirm {
+    -fx-layout-x: 77.0;
+    -fx-layout-y: 281.0;
+    -fx-pref-height: 25.0;
+    -fx-pref-width: 221.0;
+    -fx-visible: false;
+}
+
+.anchor-pane.sign-in .check-box.show-password {
+    -fx-layout-x: 72.0;
+    -fx-layout-y: 319.0;
+}
+
+.anchor-pane.sign-in .button.login {
+    -fx-layout-x: 117.0;
+    -fx-layout-y: 373.0;
+    -fx-pref-height: 40.0;
+    -fx-pref-width: 102.0;
+}
+
+.anchor-pane.sign-in .label.register {
+    -fx-layout-x: 114.0;
+    -fx-layout-y: 468.0;
+    -fx-pref-height: 17.0;
+    -fx-pref-width: 125.0;
+}
+
+.anchor-pane.sign-in .button.create-account {
+    -fx-layout-x: 32.0;
+    -fx-layout-y: 493.0;
+    -fx-pref-height: 25.0;
+    -fx-pref-width: 290.0;
+}
+
+/* Styling for the sign-up form */
+.anchor-pane.sign-up {
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+
+.anchor-pane.sign-up .image-view.logo {
+    -fx-fit-height: 117.0;
+    -fx-fit-width: 135.0;
+    -fx-layout-x: 109.0;
+}
+
+.anchor-pane.sign-up .label.title {
+    -fx-layout-x: 101.0;
+    -fx-layout-y: 107.0;
+    -fx-pref-height: 20.0;
+    -fx-pref-width: 125.0;
+    -fx-font-family: 'Gigi';
+    -fx-font-size: 14.0;
+}
+
+.anchor-pane.sign-up .text-field.username {
+    -fx-layout-x: 43.0;
+    -fx-layout-y: 144.0;
+    -fx-pref-height: 35.0;
+    -fx-pref-width: 233.0;
+}
+
+.anchor-pane.sign-up .password-field.password {
+    -fx-layout-x: 43.0;
+    -fx-layout-y: 257.0;
+    -fx-pref-height: 35.0;
+    -fx-pref-width: 233.0;
+}
+
+.anchor-pane.sign-up .text-field.password-confirm {
+    -fx-layout-x: 43.0;
+    -fx-layout-y: 309.0;
+    -fx-pref-height: 35.0;
+    -fx-pref-width: 233.0;
+}
+
+.anchor-pane.sign-up .text-field.email {
+    -fx-layout-x: 43.0;
+    -fx-layout-y: 201.0;
+    -fx-pref-height: 35.0;
+    -fx-pref-width: 233.0;
+}
+
+.anchor-pane.sign-up .check-box.gender {
+    -fx-layout-x: 46.0;
+    -fx-layout-y: 365.0;
+}
+
+.anchor-pane.sign-up .image-view.gender-icon {
+    -fx-fit-height: 40.0;
+    -fx-fit-width: 87.0;
+    -fx-layout-x: 129.0;
+    -fx-layout-y: 353.0;
+}
+
+.anchor-pane.sign-up .check-box.women {
+    -fx-layout-x: 210.0;
+    -fx-layout-y: 365.0;
+}

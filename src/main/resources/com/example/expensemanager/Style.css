@@ -1,0 +1,209 @@
+.icon{
+    -fx-fill:#8C95A3;
+    -fx-background-color: red;
+}
+.backgorund{
+    -fx-background-color: #E9E9E9;
+}
+
+.boxes{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 15px;
+}
+.choice-box{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-border-color: #cbcbcb;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+    -fx-stroke-line-cap: round;
+
+}
+
+.chart-line-symbol {
+    -fx-background-color: transparent, transparent;
+    -fx-background-insets: 0, 0;
+    -fx-background-radius: 0;
+    -fx-padding: 0;
+}
+
+.chart-line-symbol-placeholder {
+    -fx-background-color: transparent;
+}
+.balance-box{
+    -fx-background-color: #3C78E9;
+}
+/* table.css */
+/* table.css */
+.table-view {
+    -fx-background-color: #FFFFFF; /* White background */
+}
+
+.table-view .column-header {
+    -fx-background-color: #2980B9; /* Blue header background */
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #FFFFFF; /* White text color for column headers */
+}
+
+.table-row-cell {
+    -fx-background-color: #ECF0F1; /* Light gray background for table rows */
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #E0E0E0; /* Alternate row color */
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #3498DB; /* Blue background for selected rows */
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: #FFFFFF; /* White text color for selected rows */
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #D5DBDB; /* Light blue background on hover */
+}
+
+.table-cell {
+    -fx-alignment: CENTER; /* Center-align cell content */
+}
+.button1 {
+    -fx-background-color: #1E90FF;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-padding: 10 20 10 20; /* Padding around the text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px;
+    -fx-background-insets: 0;
+    -fx-border-width: 2px;
+
+}
+.button2 {
+    -fx-background-color: #1A9C52;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-padding: 10 20 10 20; /* Padding around the text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px;
+    -fx-background-insets: 0;
+    -fx-border-width: 2px;
+
+}
+.button3 {
+    -fx-background-color: #EA4F4F;
+    -fx-border-color: transparent;
+    -fx-text-fill: #FFFFFF; /* White text color */
+    -fx-padding: 10 20 10 20; /* Padding around the text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px;
+    -fx-background-insets: 0;
+    -fx-border-width: 2px;
+
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 5px;
+    -fx-border-color: #cbcbcb;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+.date-picker {
+    -fx-background-color: transparent;
+    -fx-border-color: #959595; /* DodgerBlue border */
+    -fx-text-fill: #676767; /* DodgerBlue text */
+    -fx-padding: 10 20 10 20; /* Padding around the text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+    -fx-background-insets: 0;
+}
+
+.date-picker:focused {
+    -fx-border-color: #1C86EE; /* Slightly darker blue when focused */
+    -fx-background-color: #E0F7FF; /* Light blue background when focused */
+}
+
+.date-picker .text {
+    -fx-fill: #676767; /* DodgerBlue text */
+}
+
+.date-picker .prompt-text {
+    -fx-fill: #A9A9A9; /* DarkGray prompt text */
+}
+
+.date-picker .arrow {
+    -fx-background-color: transparent; /* Remove arrow background */
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: transparent; /* Remove arrow button background */
+}
+
+.date-picker .arrow-button .arrow {
+    -fx-background-color: #676767; /* Arrow color */
+    -fx-background-radius: 5px;
+}
+
+.date-picker .arrow-button:hover .arrow {
+    -fx-background-color: #1C86EE; /* Darker blue on hover */
+}
+
+.date-picker .arrow-button:pressed .arrow {
+    -fx-background-color: #1A78D1; /* Even darker blue on press */
+}
+
+.date-picker .content {
+    -fx-background-color: white; /* Calendar popup background */
+    -fx-border-color: #1E90FF; /* Calendar popup border color */
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.radio-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #1E90FF; /* DodgerBlue text */
+    -fx-font-size: 16px; /* Font size */
+    -fx-font-weight: bold; /* Bold text */
+    -fx-padding: 10 20 10 20; /* Padding around the text */
+}
+
+.radio-button .radio {
+    -fx-background-color: transparent;
+    -fx-border-color: #1E90FF; /* DodgerBlue border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 50%; /* Rounded border */
+    -fx-padding: 3; /* Space inside the radio button */
+}
+
+.radio-button .radio:hover {
+    -fx-border-color: #1C86EE; /* Slightly darker blue on hover */
+}
+
+.radio-button:selected .radio {
+    -fx-background-color: #1E90FF; /* DodgerBlue fill when selected */
+    -fx-border-color: #1E90FF;
+}
+
+.radio-button .radio .dot {
+    -fx-background-color: #FFFFFF; /* White dot when selected */
+    -fx-background-radius: 50%;
+    -fx-padding: 5; /* Space around the dot */
+}
